@@ -18,6 +18,13 @@
       "note": "All-intra H.264 derivative for responsive recorded-frame gaze selection; visual content unchanged."
     },
     {
+      "page": "home",
+      "path": "/assets/home/plush-poster.jpg",
+      "provenance": "local-thumbnail-of-user-supplied-video",
+      "sourceAsset": "/assets/home/plush-gaze.mp4",
+      "note": "Lightweight JPEG of the original first frame, shown while the video loads."
+    },
+    {
       "page": "contact",
       "path": "/assets/contact/plush-preview.jpg",
       "provenance": "reference-derived-preview-crop",
