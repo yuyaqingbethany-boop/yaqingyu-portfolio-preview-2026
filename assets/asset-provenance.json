@@ -1,0 +1,369 @@
+{
+  "version": 1,
+  "scope": "local preview only; no deployment authorized",
+  "sourceDocument": "Portfolio Yaqing Yu 2026.pdf",
+  "assets": [
+    {
+      "page": "home",
+      "path": "/assets/home/plush-original.mp4",
+      "provenance": "user-supplied-video-url",
+      "sourceAsset": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260908_073327_03643c0a-db33-417a-ae8f-4a39259c7f9c.mp4",
+      "note": "Exact lavender plush source video named in the user's eye-following prompt; local preview only."
+    },
+    {
+      "page": "home",
+      "path": "/assets/home/plush-gaze.mp4",
+      "provenance": "local-transcode-of-user-supplied-video",
+      "sourceAsset": "/assets/home/plush-original.mp4",
+      "note": "All-intra H.264 derivative for responsive recorded-frame gaze selection; visual content unchanged."
+    },
+    {
+      "page": "contact",
+      "path": "/assets/contact/plush-preview.jpg",
+      "provenance": "reference-derived-preview-crop",
+      "sourcePage": 25,
+      "crop": "Lavender plush, heart, and desk scene only; excludes the page headline, contact form, and body copy. Local preview, not a rights-cleared original."
+    },
+    {
+      "page": "about",
+      "path": "/assets/about/portrait-preview.jpg",
+      "provenance": "reference-derived-preview-crop",
+      "sourcePage": 24,
+      "crop": "Illustrated portrait, lavender plush, and desk scene only; excludes page heading, education, and body copy. Local preview, not a rights-cleared original."
+    },
+    {
+      "page": "about",
+      "path": "/assets/about/garden-art.png",
+      "provenance": "ai-assisted-authored-garden-art",
+      "sourceAsset": "/assets/about/portrait-preview.jpg",
+      "note": "Generated with the built-in image tool from the supplied page-24 illustrated portrait/plush as an identity and style reference; floral setting is newly authored for this local preview. No personal photograph is represented."
+    },
+    {
+      "page": "about",
+      "path": "/assets/about/garden-poster.jpg",
+      "provenance": "authored-garden-film-poster",
+      "sourceAsset": "/assets/about/garden-art.png",
+      "note": "JPEG poster converted locally from the approved illustrated garden scene."
+    },
+    {
+      "page": "about",
+      "path": "/assets/about/garden-scroll.mp4",
+      "provenance": "authored-garden-film",
+      "sourceAsset": "/assets/about/garden-art.png",
+      "note": "Six-second silent H.264 MP4 authored locally by scripts/renderAboutGarden.swift: 1280x720 at 24 fps, maximum keyframe interval four frames, subtle camera approach and drifting petals; local preview only."
+    },
+    {
+      "category": "learning-technology",
+      "path": "/assets/categories/learning-technology.jpg",
+      "provenance": "reference-derived-preview-crop",
+      "sourcePage": 3,
+      "crop": "Left category scene only; excludes the page headline and navigation. Local preview, not an independent original artwork asset."
+    },
+    {
+      "category": "creative-media",
+      "path": "/assets/categories/creative-media.jpg",
+      "provenance": "reference-derived-preview-crop",
+      "sourcePage": 11,
+      "crop": "Left category scene only; excludes the page headline and navigation. Local preview, not an independent original artwork asset."
+    },
+    {
+      "category": "marketing-communication",
+      "path": "/assets/categories/marketing-communication.jpg",
+      "provenance": "reference-derived-preview-crop",
+      "sourcePage": 19,
+      "crop": "Left category scene only; excludes the page headline and navigation. Local preview, not an independent original artwork asset."
+    },
+    {
+      "projectId": "01",
+      "path": "/assets/projects/01/hero.jpg",
+      "provenance": "reference-derived-preview-crop",
+      "sourcePage": 4,
+      "crop": "Hero anatomy-lab visual only; excludes page title and body copy."
+    },
+    {
+      "projectId": "02",
+      "path": "/assets/projects/02/holomassage-detail.jpg",
+      "provenance": "user-supplied-original-asset",
+      "sourceAsset": "portfolio-prototype/dist/assets/holomassage-detail.jpg",
+      "note": "Original handoff image, not a crop of the flattened portfolio PDF."
+    },
+    {
+      "projectId": "03",
+      "path": "/assets/projects/03/hero.jpg",
+      "provenance": "reference-derived-preview-crop",
+      "sourcePage": 6,
+      "crop": "Equilibrium 2034 game-board visual only; excludes page title, description, and resource buttons."
+    },
+    {
+      "projectId": "04",
+      "path": "/assets/projects/04/hero.jpg",
+      "provenance": "reference-derived-preview-crop",
+      "sourcePage": 7,
+      "crop": "Recipe-learning concept visual only; the pictured person is illustrative, not identified as a participant."
+    },
+    {
+      "projectId": "05",
+      "path": "/assets/projects/05/01-home-verified-student.png",
+      "provenance": "user-supplied-paper-prototype",
+      "sourceAsset": "ReuseU_UserFlow_PaperPrototypes (2)/01_Home_Verified_Student.png"
+    },
+    {
+      "projectId": "05",
+      "path": "/assets/projects/05/02-ai-quick-listing.png",
+      "provenance": "user-supplied-paper-prototype",
+      "sourceAsset": "ReuseU_UserFlow_PaperPrototypes (2)/02_AI_Quick_Listing.png"
+    },
+    {
+      "projectId": "05",
+      "path": "/assets/projects/05/06-explore-map.png",
+      "provenance": "user-supplied-paper-prototype",
+      "sourceAsset": "ReuseU_UserFlow_PaperPrototypes (2)/06_Explore_Map.png"
+    },
+    {
+      "projectId": "05",
+      "path": "/assets/projects/05/journey-1-registration.png",
+      "provenance": "user-supplied-journey-screenshot",
+      "processingNote": "Selection outline removed and embedded title centered",
+      "sourceAsset": "截屏2026-10-23 22.29.51.png",
+      "sha256": "1f25b146cd86e8c315fe2a76bd2c567b8109746b4e7765edcf7a0a55596eebf5"
+    },
+    {
+      "projectId": "05",
+      "path": "/assets/projects/05/journey-2-ai-listing.png",
+      "provenance": "user-supplied-journey-screenshot",
+      "processingNote": "Bottom-edge artifact removed and embedded title centered",
+      "sourceAsset": "截屏2026-10-23 22.30.04.png",
+      "sha256": "33c918dd5283a269144f74b4ee44e23ca9180bbed023a80190d3777497e2aab5"
+    },
+    {
+      "projectId": "05",
+      "path": "/assets/projects/05/journey-3-campus-map.png",
+      "provenance": "user-supplied-journey-screenshot",
+      "processingNote": "Stray line removed and embedded title centered",
+      "sourceAsset": "截屏2026-10-23 22.30.12.png",
+      "sha256": "9ada600335e4a73d9b602bf9bc65cd2af838928dd4d1097599188e15645a6bd8"
+    },
+    {
+      "projectId": "05",
+      "path": "/assets/projects/05/ppt-home-screen.png",
+      "provenance": "user-supplied-pptx-embedded-screen",
+      "sourcePresentation": "Yujia (Grace) Li & Yaqing (Bethany) Yu [MSTU 4037_App Studio_ReuseU_Pseudocode_ Paper Prototyping].pptx",
+      "sourceAsset": "ppt/media/image5.png",
+      "sha256": "2c0ebbfa630a6d4ddd013f87e4931cc331c1f8cc79c8d7e20e4e84eccf1162a1"
+    },
+    {
+      "projectId": "05",
+      "path": "/assets/projects/05/ppt-concept-screen.png",
+      "provenance": "user-supplied-pptx-embedded-screen",
+      "sourcePresentation": "Yujia (Grace) Li & Yaqing (Bethany) Yu [MSTU 4037_App Studio_ReuseU_Pseudocode_ Paper Prototyping].pptx",
+      "sourceAsset": "ppt/media/image3.png",
+      "sha256": "572afbab319abe69a9298948a5cb17ea74f10094dd1827f82ab4b124e35edd85"
+    },
+    {
+      "projectId": "06",
+      "path": "/assets/projects/06/hero.jpg",
+      "provenance": "reference-derived-preview-crop",
+      "sourcePage": 9,
+      "crop": "Existing portfolio hero preview only; used as a local visual reference and does not modify or link back through this asset."
+    },
+    {
+      "projectId": "07",
+      "path": "/assets/projects/07/hero.jpg",
+      "provenance": "reference-derived-preview-crop",
+      "sourcePage": 10,
+      "crop": "Learning Passport platform visual only; no claim of UNICEF endorsement or project engagement."
+    },
+    {
+      "projectId": "08",
+      "path": "/assets/projects/08/hero.jpg",
+      "provenance": "reference-derived-preview-crop",
+      "sourcePage": 12,
+      "crop": "Forest still from the four-part story strip, excluding project title and body copy; low-resolution local preview only."
+    },
+    {
+      "projectId": "08",
+      "path": "/assets/projects/08/carousel-poster.jpg",
+      "provenance": "user-supplied-original-project-cover",
+      "sourcePage": 12,
+      "sourceAsset": "“Where I’m From” (WIF) Multimodal Poem-封面.jpg",
+      "crop": "Uncropped four-panel project poster; used only in the 3D carousel and its expanded preview."
+    },
+    {
+      "projectId": "09",
+      "path": "/assets/projects/09/hero.jpg",
+      "provenance": "reference-derived-preview-crop",
+      "sourcePage": 13,
+      "crop": "Subway and weathered-wall visual from the project hero, excluding page text; local preview only."
+    },
+    {
+      "projectId": "10",
+      "path": "/assets/projects/10/hero.jpg",
+      "provenance": "reference-derived-preview-crop",
+      "sourcePage": 14,
+      "crop": "Clay-character story still only, excluding page text; local preview only."
+    },
+    {
+      "projectId": "10",
+      "path": "/assets/projects/10/main-poster.jpg",
+      "provenance": "user-supplied-original",
+      "source": "MSTU 5002 cover image supplied by the user"
+    },
+    {
+      "projectId": "11",
+      "path": "/assets/projects/11/hero.jpg",
+      "provenance": "reference-derived-preview-crop",
+      "sourcePage": 15,
+      "crop": "Plush frog and student waterfront visual only, excluding page text; local preview only."
+    },
+    {
+      "projectId": "12",
+      "path": "/assets/projects/12/hero.jpg",
+      "provenance": "reference-derived-preview-crop",
+      "sourcePage": 16,
+      "crop": "Floral film still only, excluding page text; low-resolution local preview only."
+    },
+    {
+      "projectId": "12",
+      "path": "/assets/projects/12/lucky-star-cover.jpg",
+      "provenance": "reference-derived-preview-crop",
+      "sourcePage": 16,
+      "crop": "Original red-sun artwork and 'Mom, I am a lucky star / I hope you are lucky' message; carousel-only local preview."
+    },
+    {
+      "projectId": "13",
+      "path": "/assets/projects/13/hero.jpg",
+      "provenance": "reference-derived-preview-crop",
+      "sourcePage": 17,
+      "crop": "Sunset film still only, excluding page text; local preview only."
+    },
+    {
+      "projectId": "13",
+      "path": "/assets/projects/13/unplugged-cover.png",
+      "provenance": "user-supplied-original-project-cover",
+      "sourceAsset": "截屏2026-10-22 09.05.25.png",
+      "crop": "Unmodified Unplugged title frame supplied by the user; carousel-only local preview."
+    },
+    {
+      "projectId": "14",
+      "path": "/assets/projects/14/hero.jpg",
+      "provenance": "reference-derived-preview-crop",
+      "sourcePage": 18,
+      "crop": "Rocket visual from the supplied portfolio composition only, excluding page text; not claimed as an original mission photograph. Local preview only."
+    },
+    {
+      "projectId": "14",
+      "path": "/assets/projects/14/change-5-landscape.jpg",
+      "provenance": "reference-derived-preview-crop",
+      "sourcePage": 18,
+      "crop": "Horizontal rocket-and-moon composition from the supplied portfolio; not claimed as an original mission photograph. Carousel-only local preview."
+    },
+    {
+      "projectId": "15",
+      "path": "/assets/projects/15/hero.jpg",
+      "provenance": "reference-derived-preview-crop",
+      "sourcePage": 20,
+      "crop": "Camera and interview-planning visual only, excluding page title and body copy; local preview only."
+    },
+    {
+      "projectId": "16",
+      "path": "/assets/projects/16/hero.jpg",
+      "provenance": "reference-derived-preview-crop",
+      "sourcePage": 21,
+      "crop": "Clay-style student animation still only, excluding page text; local preview only."
+    },
+    {
+      "projectId": "17",
+      "path": "/assets/projects/17/hero.jpg",
+      "provenance": "reference-derived-preview-crop",
+      "sourcePage": 22,
+      "crop": "Maybelline campaign visual and embedded campaign lettering only, excluding page title and case-study body copy; local preview only. Not a client engagement."
+    },
+    {
+      "projectId": "17",
+      "path": "/assets/projects/17/portfolio-poster.png",
+      "provenance": "reference-derived-preview-crop",
+      "sourcePage": 22,
+      "crop": "Original portfolio page's complete top campaign composition, including project title, model, product, and summary; excludes the page's nonfunctional screenshot buttons and lower case-study modules. Detail-page preview only; not a client engagement."
+    },
+    {
+      "projectId": "17",
+      "path": "/assets/projects/17/campaign-poster.png",
+      "provenance": "AI-edited-from-reference",
+      "sourcePage": 22,
+      "edit": "Removed portfolio headings, case-study copy, and Project 17 label from the supplied composition; retained the campaign model, product, pink slogan, and sky/city mood. Generated image is a portfolio interpretation, not original brand creative or a client engagement."
+    },
+    {
+      "projectId": "18",
+      "path": "/assets/projects/18/hero.jpg",
+      "provenance": "reference-derived-preview-crop",
+      "sourcePage": 23,
+      "crop": "Dashboard visual from the portfolio composition only, excluding page title and body copy; local preview only, not independently validated product data."
+    }
+  ],
+  "documents": [
+    {
+      "projectId": "03",
+      "path": "/assets/research/project-03/Group 6-Equilibrium 2034 Player Manual.pdf",
+      "sourceAsset": "Original_Uploads/Group 6-Equilibrium 2034.pdf",
+      "sha256": "2df0556927f129d38c6cae89521be989797ae664324978fd4a8e577aeeaacf8e",
+      "verifiedTitle": "Equilibrium 2034-Player Manual",
+      "pageCount": 13,
+      "sourceMappingNote": "The handoff lists a DOCX needing PDF conversion; the supplied PDF was independently verified as the same project's Player Manual and copied unchanged.",
+      "deployment": "Separate asset; local preview copy only, not deployed."
+    },
+    {
+      "projectId": "02",
+      "path": "/assets/research/project-02/Holomassage XR Design_MSTU 4088 Final Paper.pdf",
+      "sourceAsset": "Holomassage XR Design_MSTU 4088 Final Paper.pdf",
+      "sha256": "f01d25d962ab1597b010efdd657f70e4afa226d6f411450e25d1cabd13c867e2",
+      "verifiedTitle": "Holomassage XR Design_MSTU 4088 Final Paper",
+      "pageCount": 19,
+      "deployment": "Separate asset; local preview copy only, not deployed."
+    },
+    {
+      "projectId": "04",
+      "path": "/assets/research/project-04/MSTU 4083 Final Paper —Shanghai Cai Fan (Rice with Salted Pork and Greens) Redesign.pdf",
+      "sourceAsset": "MSTU 4083 Final Paper —Shanghai Cai Fan (Rice with Salted Pork and Greens) Redesign.pdf",
+      "sha256": "824ae0cf3f326dcd9cc0ff7030c7b77fe501a87fe999742b5f759f646f327678",
+      "verifiedTitle": "MSTU 4083 Final Paper —Shanghai Cai Fan (Rice with Salted Pork and Greens) Redesign",
+      "pageCount": 13,
+      "deployment": "Separate asset; local preview copy only, not deployed."
+    },
+    {
+      "projectId": "09",
+      "path": "/assets/research/project-09/Photography Presentation(2).pdf",
+      "sourceAsset": "Original_Uploads/Photography Presentation.pdf",
+      "sha256": "f23e22941d1773b035851d6bc1848f6c1f00f3e00d69ddc6b3cbbd82823aed92",
+      "verifiedTitle": "Traces of Living: What Should Not Be Seen",
+      "pageCount": 29,
+      "deployment": "Separate asset; local preview copy only, not deployed."
+    },
+    {
+      "projectId": "07",
+      "path": "/assets/research/project-07/ENT200_Group11_Report(2).pdf",
+      "sourceAsset": "Original_Uploads/ENT200_Group11_Report.pdf",
+      "sha256": "a641e1aee8c2b673d4b186ef8aa5b9a7b09f43ea60cbffc7b354fda01d7b77c3",
+      "verifiedTitle": "UNICEF Business Feasibility Project: Creating Sustainable Pathways for Learning Passport",
+      "pageCount": 26,
+      "redaction": "Cover-page student IDs removed by rasterizing and rebuilding page one; original source unchanged.",
+      "deployment": "Separate redacted asset; local preview copy only, not deployed."
+    },
+    {
+      "projectId": "17",
+      "path": "/assets/research/project-17/Yu_Yaqing_bms387_ad_analysis(2).pdf",
+      "sourceAsset": "Original_Uploads/Yu_Yaqing_bms387_ad_analysis.pdf",
+      "sha256": "0a51274751c5538a29b9d8c0b8d5c5a756d1c2d54ce77c76a510a86bf2244bf1",
+      "verifiedTitle": "Analysis of Television Commercials Based on Semiotics Theory: A Case Study from Maybelline New York's Campaign",
+      "pageCount": 14,
+      "redaction": "Cover-page student IDs removed by rasterizing and rebuilding page one; original source unchanged.",
+      "deployment": "Separate redacted asset; local preview copy only, not deployed."
+    }
+  ],
+  "unavailable": [
+    {
+      "projectId": "04",
+      "assetFile": "Shanghai Cai Fan (Rice with Salted Pork and Greens) Redesign—MSTU 4083 Final Paper Outline.docx",
+      "reason": "Exact mapped outline was not validated."
+    }
+  ]
+}
